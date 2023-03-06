@@ -11,16 +11,17 @@ type SocialMediaType = {
   icon: IconType;
   url: string;
   title: string;
-}
+};
 
 function Home() {
   const SEOData: SEOProps = {
-    title: "Andrian Fadhilla (andrianfaa) - Front-End Web Developer",
-    description: "I'm a User Interface Designer and also a Front-End Developer based in Bekasi, Indonesia. I Love to create beautiful and functional user interfaces using React.js.",
-    url: "https://www.andriann.co",
+    title: "DoBestMan (DoBestfaa) - Front-End Web Developer",
+    description:
+      "I'm a User Interface Designer and also a Front-End Developer based in Bekasi, Indonesia. I Love to create beautiful and functional user interfaces using React.js.",
+    url: "https://www.DoBestn.co",
     keywords: [
-      "Andrian Fadhilla",
-      "andrianfaa",
+      "DoBestMan",
+      "DoBestfaa",
       "user interface designer",
       "UI designer",
       "front-end developer",
@@ -35,17 +36,17 @@ function Home() {
   const socialMediaLinks: SocialMediaType[] = [
     {
       icon: IoLogoGithub,
-      url: "https://github.com/andrianfaa",
+      url: "https://github.com/DoBestfaa",
       title: "Github",
     },
     {
       icon: IoLogoTwitter,
-      url: "https://twitter.com/andrianfaa",
+      url: "https://twitter.com/DoBestfaa",
       title: "Twitter",
     },
     {
       icon: IoLogoLinkedin,
-      url: "https://linkedin.com/in/andrianfaa",
+      url: "https://linkedin.com/in/DoBestfaa",
       title: "LinkedIn",
     },
   ];
@@ -58,20 +59,13 @@ function Home() {
         <div className="w-full mb-6">
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl text-black-100 max-w-3xl font-normal text-center sm:text-left leading-normal md:leading-[56px]">
             <span className="block text-lg md:text-xl font-sans mb-4 font-medium">
-              Hi, I'm Andrian Fadhilla{" "}
+              Hi, I'm DoBestMan{" "}
             </span>
-            I'm a {" "}
-            <span className="text-primary">
-              User Interface Designer
-            </span>
-            {" "}
+            I'm a <span className="text-primary">User Interface Designer</span>{" "}
             and also a{" "}
-            <span className="text-cyan-300">
-              Front-End Developer
-            </span>
-            {" "}
-            based in Bekasi, Indonesia.
-            I Love to create beautiful and functional user interfaces using React.js.
+            <span className="text-cyan-300">Front-End Developer</span> based in
+            Bekasi, Indonesia. I Love to create beautiful and functional user
+            interfaces using React.js.
           </h1>
 
           <Button.Base

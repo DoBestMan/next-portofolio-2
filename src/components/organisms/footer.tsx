@@ -21,7 +21,7 @@ function Footer() {
     },
     {
       label: "Blog",
-      href: "https://andrianfaa.medium.com",
+      href: "https://DoBestfaa.medium.com",
     },
     {
       label: "About",
@@ -34,7 +34,7 @@ function Footer() {
       <div className="container p-6 text-center flex flex-col sm:flex-row sm:justify-between gap-6">
         <Link href="/" passHref>
           <a className="font-semibold text-black-100 text-lg" title={router.pathname !== "/" ? "Back to Home" : "Home"}>
-            @andrianfaa
+            @DoBestfaa
           </a>
         </Link>
 
@@ -54,11 +54,11 @@ function Footer() {
         </ul>
 
         <a
-          href="mailto:andrianfadhilla@gmail.com"
+          href="mailto:DoBestfadhilla@gmail.com"
           title="Email me"
           className="font-medium hover:text-black-100 focus:text-black-100"
         >
-          andrianfadhilla@gmail.com
+          DoBestfadhilla@gmail.com
         </a>
       </div>
     </footer>

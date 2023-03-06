@@ -10,12 +10,14 @@ function Projects() {
   const [selectedTag, setSelectedTag] = useState<string>("");
 
   const SEOData: SEOProps = {
-    title: "Andrian Fadhilla (andrianfaa) - Projects",
-    description: "This is a list of projects I've worked on. Feel free to check out my Github profile to see more projects I've worked on.",
-    url: "https://www.andriann.co/projects",
-    image: "https://ik.imagekit.io/lzkn3c9xkpp/Portfolio/og-images/og-image--projects_7copRYr8C.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655090529268",
+    title: "DoBestMan (DoBestfaa) - Projects",
+    description:
+      "This is a list of projects I've worked on. Feel free to check out my Github profile to see more projects I've worked on.",
+    url: "https://www.DoBestn.co/projects",
+    image:
+      "https://ik.imagekit.io/lzkn3c9xkpp/Portfolio/og-images/og-image--projects_7copRYr8C.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655090529268",
     keywords: [
-      "Andrian Fadhilla",
+      "DoBestMan",
       "User Interface Designer",
       "Front-End Developer",
       "Projects",
@@ -23,11 +25,11 @@ function Projects() {
       "React.js",
       "Next.js",
       "Typescript",
-      "andrianfaa",
-      "andrianfadhilla",
-      "andrianfaa projects",
-      "andrianfadhilla projects",
-      "andrianfaa portfolio",
+      "DoBestfaa",
+      "DoBestfadhilla",
+      "DoBestfaa projects",
+      "DoBestfadhilla projects",
+      "DoBestfaa portfolio",
     ],
   };
 
@@ -49,15 +51,17 @@ function Projects() {
         </h1>
 
         <div className="flex flex-col sm:flex-row items-start gap-2">
-          <span className="font-medium text-black-100 block py-1">
-            Tags :{" "}
-          </span>
+          <span className="font-medium text-black-100 block py-1">Tags : </span>
 
           <ul className="flex flex-row flex-wrap gap-2">
             {tags.map((tag) => (
               <li
                 key={tag}
-                className={`button-base py-2 px-4 rounded-full text-sm font-medium border-[2px] ${selectedTag === tag ? "active border-black-100" : "border-transparent"}`}
+                className={`button-base py-2 px-4 rounded-full text-sm font-medium border-[2px] ${
+                  selectedTag === tag
+                    ? "active border-black-100"
+                    : "border-transparent"
+                }`}
                 onClick={() => handleTagClick(tag)}
               >
                 {tag}

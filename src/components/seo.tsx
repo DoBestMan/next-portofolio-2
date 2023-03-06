@@ -15,15 +15,15 @@ function SEO({ data }: { data: SEOProps }) {
     image = "https://ik.imagekit.io/lzkn3c9xkpp/Portfolio/og-images/og-image--home_CT3S7585Bm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655090528763",
     url,
     keywords = [
-      "Andrian Fadhilla",
+      "DoBestMan",
       "User Interface Designer",
       "Front-End Developer",
       "Bekasi, Indonesia",
       "React.js",
       "Next.js",
       "Typescript",
-      "andrianfaa",
-      "andrianfadhilla",
+      "DoBestfaa",
+      "DoBestfadhilla",
     ],
   } = data;
 
@@ -45,7 +45,7 @@ function SEO({ data }: { data: SEOProps }) {
       <meta name="twitter:image" content={image} />
       <meta name="twitter:url" content={url} />
       <meta name="twitter:site" content={url} />
-      <meta name="twitter:creator" content="@andrianfaa" />
+      <meta name="twitter:creator" content="@DoBestfaa" />
 
       <link rel="canonical" href={url} />
     </Head>

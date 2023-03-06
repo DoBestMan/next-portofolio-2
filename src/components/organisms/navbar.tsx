@@ -35,7 +35,7 @@ function Navbar() {
     },
     {
       title: "Blog",
-      href: "https://andrianfaa.medium.com/",
+      href: "https://DoBestfaa.medium.com/",
       openInNewTab: true,
       animationDelay: "750ms",
     },
@@ -51,7 +51,7 @@ function Navbar() {
       <div className="navbar-container px-6">
         <Link href="/" passHref>
           <a className="navbar-brand" title={router.pathname !== "/" ? "Back to Home" : "Home"}>
-            @andrianfaa.
+            @DoBestfaa.
           </a>
         </Link>
 
